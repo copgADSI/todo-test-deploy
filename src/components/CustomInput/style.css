@@ -1,0 +1,16 @@
+.input{
+    padding: 10px;
+    width: 50vh;
+    border-radius: 10px 0 0 10px ;
+    border: 1px solid rgb(80, 122, 240);
+    box-shadow: none;
+    outline: rgb(73, 118, 241);
+
+}
+.input:hover{
+    border: 1px solid rgb(73, 118, 241);
+    color:rgb(73, 118, 241);
+}
+.input:focus{
+    border: 1px solid rgb(80, 122, 240);
+}

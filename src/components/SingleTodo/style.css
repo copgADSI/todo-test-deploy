@@ -1,0 +1,32 @@
+.container_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.card{
+    width: 300px;
+    display: flex;
+    padding-left: 10px;
+    text-align: justify;
+    margin: 10px;
+    max-height: 400;
+    background-color:  rgb(73, 118, 241);
+    color: white;
+    border-radius: 10px;
+}
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+.icon{
+    cursor: pointer;
+}
+.icon:hover{
+    color: rgb(248, 240, 240);
+}
